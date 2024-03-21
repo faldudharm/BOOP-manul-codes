@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+int a;
+cout << "enter a number" ;
+cin >> a;
+if(a==1){
+cout << "prime";
+}
+else if(a%2==0){
+cout << "is prime number" ; 
+}
+else{
+cout << "is not prime number" ;}
+return 0;
+}
