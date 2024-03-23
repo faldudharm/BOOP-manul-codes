@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    double kmtom=1000.0;
+    double mtocm=100.0;
+    double cmtoft=0.32;
+    double fttoin=12;
+    double km;
+    cout << "enter kilometer" << endl;
+    cin >> km;
+    double mt=km*kmtom;
+    double cm=mt*mtocm;
+    double ft=cm*cmtoft;
+    double inch=ft*fttoin;
+    cout <<fixed<< "kilometer in meter =" <<mt<<endl << "kilometer in cm =" <<cm<< endl << "kilometer in feet =" <<ft<< endl<< "kilometer in inch =" <<inch<<endl;
+    return 0;
+}
